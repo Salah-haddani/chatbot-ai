@@ -19,7 +19,7 @@ function App() {
     setMessage("");
 
 
-    fetch("http://localhost:1520/", {
+    fetch("https://chatbot-ai-new.vercel.app/", {
       method: "post",
       headers:{
         "Content-Type": "application/json",
