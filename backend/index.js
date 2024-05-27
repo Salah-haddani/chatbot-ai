@@ -14,8 +14,6 @@ const openai = new OpenAI({
     //apiKey: "sk-proj-GErdpKJA1zMJJGQY5z8xT3BlbkFJTWY57iHbiy0xZLIyZFnN",
 });
 
-
-
 app.post("/", async(req, res) => {
     const { chats } = req.body;
 
