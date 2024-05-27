@@ -11,7 +11,7 @@ app.use(cors());
 
 const openai = new OpenAI({
     apiKey: process.env.API_KEY,
-    //apiKey: "sk-proj-GErdpKJA1zMJJGQY5z8xT3BlbkFJTWY57iHbiy0xZLIyZFnN",
+    //apiKey: "sk-proj-GdCVkZ7vg9Nconr4dcNCT3BlbkFJLnQbKofIGiMQm4TFTEaa",
 });
 
 app.post("/", async(req, res) => {
